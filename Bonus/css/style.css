@@ -1,0 +1,11 @@
+[class*="col-"]{
+  height: calc(1170px / 24);
+}
+
+.black{
+  background: #000;
+}
+
+[class*="col-"] .container{
+  padding: 0;
+}
