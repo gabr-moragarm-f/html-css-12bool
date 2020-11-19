@@ -1,0 +1,14 @@
+[class*="col-"]{
+  height: calc(100vh / 5);
+  border: 1px solid black;
+  background: #FFC0CB;
+  text-align: center;
+  line-height: calc(100vh / 5);
+  min-height: 18px;
+}
+
+[class*="col-"] .container [class*="col-"]{
+  background-color: #F07F80;
+  border: 1px solid #fff;
+  height: calc((100vh / 5) - 10px);
+}
